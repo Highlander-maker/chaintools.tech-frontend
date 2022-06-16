@@ -20,7 +20,7 @@ function Header() {
         <h3 className="border px-4 py-1 rounded-full">Contact Us</h3>
       </div>
 
-      <div className="flex items-center space-x-5 text-blue-400">
+      <div className="flex items-center space-x-5 text-slate-400">
         <h3 className="border px-4 py-1 rounded-full">Sign In</h3>
       </div>
     </header>
