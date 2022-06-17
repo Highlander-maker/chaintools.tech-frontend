@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/Header";
-import { sanityClient} from "../sanity";
+import { sanityClient, urlFor } from "../sanity";
 import { Post } from "../typings";
 
 interface Props {
@@ -34,8 +34,8 @@ export default function Home({ posts }: Props) {
         </div>
 
         <img
-          className="hidden md:inline-flex h-32 lg:-full"
-          src="/public/chaintools-logo-black.svg"
+          className="hidden md:inline-flex h-36 lg:-full"
+          src="chaintools-logo-black.svg"
           alt=""
         />
       </div>
@@ -46,7 +46,8 @@ export default function Home({ posts }: Props) {
           <Link key={post._id} href={`/post/s{post.slug.current}`}>
             <div>
               <h1> i am a post</h1>
-              {/* //<img src={urlFor(post.mainImage).url()!} alt="" /> */}
+          
+              {/* <img src={urlFor(post.mainImage).url()!} alt="" /> */}
             </div>
           </Link>
         ))}
