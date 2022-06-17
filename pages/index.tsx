@@ -13,7 +13,7 @@ export default function Home({ posts }: Props) {
     <div className="max-w-7xl mx-auto">
       <Head>
         <title>Chaintools.tech</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="chaintools-logo-clear.svg" />
       </Head>
 
       <Header />
