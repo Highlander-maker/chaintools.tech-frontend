@@ -5,11 +5,9 @@ import Header from "../components/Header";
 import { sanityClient, urlFor } from "../sanity";
 import { Post } from "../typings";
 
-interface Props {
-  posts: [Post];
-}
 
-export default function Home({ posts }: Props) {
+
+export default function Home() {
   return (
     <div className="max-w-7xl mx-auto">
       <Head>
@@ -41,41 +39,8 @@ export default function Home({ posts }: Props) {
       </div>
 
       {/* Posts */}
-      <div>
-        {posts.map((post) => (
-          <Link key={post._id} href={`/post/s{post.slug.current}`}>
-            <div>
-              <h1> i am a post</h1>
-
-              {/* <img src={urlFor(post.mainImage).url()!} alt="" /> */}
-            </div>
-          </Link>
-        ))}
-      </div>
-
+     
       <Footer />
     </div>
   );
 }
-
-export const getServerSideProps = async () => {
-  const query = `*[_type == "post"]{
-    _id,
-    title,
-    author -> {
-     name,
-    image
-  },
-    description,
-  mainImage,
-  slug
-  }`;
-
-  const posts = await sanityClient.fetch(query);
-
-  return {
-    props: {
-      posts,
-    },
-  };
-};
