@@ -15,28 +15,28 @@ function Header() {
 
       <div className="hidden md:inline-flex items-center space-x-5">
         <a href="networks"
-        className="border  px-4 py-1 rounded-full object-contain cursor-pointer">
+        className="border  px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200">
           Networks
         </a>
 
         <a href="services"
-        className="border px-4 py-1 rounded-full object-contain cursor-pointer">
+        className="border px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200">
           Services
         </a>
 
         <a href="education"
-         className="border px-4 py-1 rounded-full object-contain cursor-pointer">
+         className="border px-4 py-1 rounded-full  hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200">
           Education
         </a>
 
         <a href="contact"
-        className="border px-4 py-1 rounded-full object-contain cursor-pointer">
+        className="border px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200">
           Contact Us
         </a>
       </div>
 
       <div className="flex items-center space-x-5 text-slate-700">
-        <a className="border px-4 py-1 rounded-full object-contain cursor-pointer">
+        <a className="border px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200">
           Sign In
         </a>
       </div>

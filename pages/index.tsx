@@ -11,7 +11,7 @@ interface Props {
 
 export default function Home({ posts }: Props) {
   return (
-    <div className="max-w-7xl mx-auto bg-gray-200">
+    <div className="max-w-7xl mx-auto">
       <Head>
         <title>Chaintools.tech</title>
         <link rel="icon" href="chaintools-logo-clear.svg" />
@@ -45,7 +45,7 @@ export default function Home({ posts }: Props) {
         {posts.map((post) => (
           <Link key={post._id} href={`/post/s{post.slug.current}`}>
             <div>
-              {/* <h1> i am a post</h1> */}
+              <h1> i am a post</h1>
 
               {/* <img src={urlFor(post.mainImage).url()!} alt="" /> */}
             </div>
