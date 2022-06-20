@@ -20,10 +20,15 @@ function Footer() {
             <BsGithub className="text-2xl cursor-pointer hover:text-black" />
           </div>
         </ul>
+        <div className="flex  justify-start items-center text-center p-5 bg-gray-50">
+          <h1 className="text-gray-800 font-semibold"> @ 2021-2022 All rights reserved |</h1>
+
+        </div>
       </div>
-      
-     
     </div>
+
+    
+
   );
 }
 
