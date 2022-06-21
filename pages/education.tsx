@@ -1,5 +1,5 @@
 import React from "react";
-import { Post } from "../typings";
+
 import Link from "next/link";
 import { sanityClient, urlFor } from "../sanity";
 import Layout from "../components/Layout";

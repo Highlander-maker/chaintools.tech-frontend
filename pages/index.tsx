@@ -1,9 +1,6 @@
 import Head from "next/head";
-import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { sanityClient, urlFor } from "../sanity";
-import { Post } from "../typings";
 
 
 
@@ -16,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Header />
-      <div className="flex justify-between items-center bg-cyan-500 border-y border-black py-10 lg:py-0">
+      <div className="flex justify-between items-center bg-cyan-500  border-black py-10 lg:py-0">
         <div className="px-10 space-y-20">
           <h1 className="text-6xl max-w-xl font-semibold">
           <p className="text-gray-800 font-bold text-6xl pb-6">
