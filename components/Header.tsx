@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="flex justify-between bg-gray-200 p-5 max-w-7xl mx-auto">
+    <header className="flex h-20 justify-between bg-gray-100 p-5 max-w-7xl mx-auto">
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
@@ -23,7 +23,7 @@ function Header() {
 
         <a
           href="services"
-          className="border px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200"
+          className="border  px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200"
         >
           Services
         </a>

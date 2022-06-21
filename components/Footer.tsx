@@ -6,26 +6,21 @@ import { BsGithub } from "react-icons/bs";
 
 function Footer() {
   return (
-    <div className="bg-gray-200 h-1 w-full flex md:flex-row justify-start items-baseline p-20">
-      <div className="p-5">
+    <div className="bg-gray-100 h-40 w-full md:flex-col min-h-screen justify-start items-baseline p-20 md:grid-cols-2">
         <ul>
-          <p className="text-gray-800 font-bold text-5xl pb-6">
+          <p className="text-gray-800 font-bold text-4xl p-6">
             Chain<span className="text-slate-500">tools</span>
           </p>
 
-          <div className="flex gap-6 pb-5">
+          <div className="flex p-6 gap-16 justify-start">
             <BsTwitter className="text-2xl cursor-pointer hover:text-black" />
             <BsDiscord className="text-2xl cursor-pointer hover:text-black" />
             <BsTelegram className="text-2xl cursor-pointer hover:text-black" />
             <BsGithub className="text-2xl cursor-pointer hover:text-black" />
           </div>
         </ul>
-        <div className="flex  justify-start items-center text-center p-5 bg-gray-50">
-          <h1 className="text-gray-800 font-semibold"> @ 2021-2022 All rights reserved |</h1>
 
         </div>
-      </div>
-    </div>
 
     
 
