@@ -11,7 +11,7 @@ interface Props {
 function Post({ post }: Props) {
   return (
     <main>
-      <Layout />
+      <Layout>
 
       <img
         className="w-full h-40 justify-around object-cover"
@@ -63,6 +63,7 @@ function Post({ post }: Props) {
           />
         </div>
       </article>
+      </Layout>
     </main>
   );
 }
