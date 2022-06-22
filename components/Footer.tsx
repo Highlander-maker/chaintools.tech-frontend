@@ -6,7 +6,7 @@ import { BsGithub } from "react-icons/bs";
 
 function Footer() {
   return (
-    <div className="bg-gray-100 h-40 w-full md:flex-col min-h-screen justify-start items-baseline p-20 md:grid-cols-2">
+    <div className="bg-gray-100 h-40 w-full  justify-start items-baseline p-20 md:grid-cols-2">
         <ul>
           <p className="text-gray-800 font-bold text-4xl p-6">
             Chain<span className="text-slate-500">tools</span>
