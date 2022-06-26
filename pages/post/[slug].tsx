@@ -20,14 +20,16 @@ interface Props {
 function Post({ post }: Props) {
   const [submitted, setSubmitted] = useState(false);
 
+  //console.log(post);
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm<IFormInput>();
 
-  const onSubmit: SubmitHandler<IFormInput> = async (data) => {
-    await fetch("/api/createComment", {
+  const onSubmit: SubmitHandler<IFormInput> = (data) => {
+    fetch("/api/createComment", {
       method: "POST",
       body: JSON.stringify(data),
     })
@@ -174,13 +176,13 @@ function Post({ post }: Props) {
 
         {/* comments */}
         <div className="flex flex-col p-10 my-10 max-w-2xl mx-auto shadow-cyan-400 shadow space-y-2">
-          <h3 className="text-4xl" >Comments</h3>
+          <h3 className="text-4xl">Comments</h3>
           <hr className="p-2" />
 
           {post.comments.map((comment) => (
             <div key={comment._id}>
               <p>
-                <span className="text-cyan-400">{comment.name}: </span>
+                <span className="text-black">{comment.name}: </span>
                 {comment.comment}
               </p>
             </div>
