@@ -1,4 +1,5 @@
 import React from "react";
+import { Router, useRouter } from "next/router";
 import { BsTwitter } from "react-icons/bs";
 import { BsDiscord } from "react-icons/bs";
 import { BsTelegram } from "react-icons/bs";
@@ -14,10 +15,10 @@ function Footer() {
           </p>
 
           <div className=" flex p-6 gap-16 justify-start">
-            <BsTwitter className="text-2xl cursor-pointer hover:text-black" />
-            <BsDiscord className="text-2xl cursor-pointer hover:text-black" />
-            <BsTelegram className="text-2xl cursor-pointer hover:text-black" />
-            <BsGithub className="text-2xl cursor-pointer hover:text-black" />
+            <BsTwitter onClick={() => window.location.href = 'https://twitter.com/ChaintoolsT'} className="text-2xl cursor-pointer hover:text-black" />
+            <BsDiscord onClick={() => window.location.href = 'https://discord.gg/ebd3nYeS'} className="text-2xl cursor-pointer hover:text-black" />
+            <BsTelegram onClick={() => window.location.href = 'https://t.me/chaintoolsT'} className="text-2xl cursor-pointer hover:text-black" />
+            <BsGithub onClick={() => window.location.href = 'https://github.com/Highlander-maker/chaintools.tech-frontend'} className="text-2xl cursor-pointer hover:text-black" />
           </div>
         </ul>
 

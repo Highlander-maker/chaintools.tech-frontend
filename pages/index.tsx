@@ -6,7 +6,7 @@ import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-full mx-auto">
       <Head>
         <title>Chaintools.tech</title>
         <link rel="icon" href="chaintools-logo-clear.svg" />
