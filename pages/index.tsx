@@ -29,7 +29,7 @@ export default function Home() {
         </div>
 
         <img
-          className="hidden md:inline-flex h-45 lg:-full mx-auto"
+          className="md:inline-flex h-45 lg:-full max-w-2xl"
           src="chaintools-logo-black.svg"
           alt=""
         />
