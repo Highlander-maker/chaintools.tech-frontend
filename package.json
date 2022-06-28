@@ -16,7 +16,8 @@
     "react-dom": "18.1.0",
     "react-hook-form": "^7.32.2",
     "react-icons": "^4.4.0",
-    "react-portable-text": "^0.4.3"
+    "react-portable-text": "^0.4.3",
+    "swiper": "^8.2.5"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.17.12",
