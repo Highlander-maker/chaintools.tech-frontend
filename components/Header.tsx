@@ -6,8 +6,8 @@ function Header() {
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
-            className="w-44 h-16 object-contain cursor-pointer"
-            src="/chaintools-logo-clear.svg"
+            className="w-40 h-16 object-contain cursor-pointer"
+            src="/chaintool--header-logo.svg"
             alt=""
           />
         </Link>
