@@ -13,6 +13,7 @@ function networks() {
           <h2 className="font-semibold">
            Choose a network you wish to stake to
           </h2>
+          <button> hi i am a button </button>
         </div>
 
        
