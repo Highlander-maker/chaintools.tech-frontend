@@ -27,6 +27,7 @@ export default function Home() {
             with your stake and earn high APY rewards paid out daily
           </h2>
         </div>
+        
 
         <img
           className="md:inline-flex h-45 lg:-full max-w-2xl"
