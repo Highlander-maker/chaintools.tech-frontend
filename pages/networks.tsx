@@ -171,7 +171,7 @@ function networks() {
             </span>
             <div className="border title-font text-lg font-medium mb-2 underline">
               <a
-                href="https://explorer.chaintools.tech/comdex"
+                href="https://explorer.chaintools.tech/comdex/staking/comdexvaloper1z6a9p43svtkzf5efmy78tae7qqz8p8cctyj6yg"
                 className="text-gray-900"
               >
                 STAKE
@@ -211,6 +211,100 @@ function networks() {
             <p className="text-gray-700 text-base">
               Sifchain is the decentralized exchange where Cosmos meets
               Ethereum, and soon much more
+            </p>
+          </div>
+          {/* button style */}
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+              Read More
+            </span>
+          </div>
+        </div>
+
+        {/* Kava */}
+        <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
+          <img className="w-90 p-10" src="/kava.png" alt="React ts" />
+
+          <div className="px-6 py-4 lg:h-52">
+            <span className="tracking-widest text-sm title-font font-medium text-black">
+              {" "}
+              Kava{" "}
+            </span>
+            <div className="border title-font text-lg font-medium mb-2 underline">
+              <a
+                href="https://explorer.chaintools.tech/kava/staking"
+                className="text-gray-900"
+              >
+                STAKE
+              </a>
+            </div>
+
+            <p className="text-gray-700 text-sm">
+              Kava’s unique co-chain architecture enables connections to all of
+              the world’s most used blockchains, allowing for the free flow of
+              users, assets, and projects into the Kava Ecosystem.
+            </p>
+          </div>
+          {/* button style */}
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+              Read More
+            </span>
+          </div>
+        </div>
+
+        {/* Bitsong */}
+        <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
+          <img className="w-90 p-10" src="/bitsong.jpeg" alt="React ts" />
+
+          <div className="px-6 py-4 lg:h-52">
+            <span className="tracking-widest text-sm title-font font-medium text-black">
+              {" "}
+              Bitsong{" "}
+            </span>
+            <div className="border title-font text-lg font-medium mb-2 underline">
+              <a
+                href="https://explorer.chaintools.tech/bitsong/staking"
+                className="text-gray-900"
+              >
+                STAKE
+              </a>
+            </div>
+
+            <p className="text-gray-700 text-sm">
+              Bitsong is a multifunctional blockchain-based ecosystem built to
+              empower the music industry.
+            </p>
+          </div>
+          {/* button style */}
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+              Read More
+            </span>
+          </div>
+        </div>
+
+        {/* Fetch.ai */}
+        <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
+          <img className="w-90 p-10" src="/fetch_ai.png" alt="React ts" />
+
+          <div className="px-6 py-4 lg:h-52">
+            <span className="tracking-widest text-sm title-font font-medium text-black">
+              {" "}
+              Fetch.ai{" "}
+            </span>
+            <div className="border title-font text-lg font-medium mb-2 underline">
+              <a
+                href="https://explorer.chaintools.tech/fetchhub/staking"
+                className="text-gray-900"
+              >
+                STAKE
+              </a>
+            </div>
+
+            <p className="text-gray-700 text-sm">
+              Planning your life doesn't need to be complicated. Fetch.ai saves
+              you time and money, so you can do more of what matters to you.
             </p>
           </div>
           {/* button style */}
