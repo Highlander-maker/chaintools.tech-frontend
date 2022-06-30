@@ -40,7 +40,9 @@ function networks() {
 
         {/* Evmos */}
         <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
+
           <img className="w-full p-10" src="/evmos-2.svg" alt="React ts" />
+
 
           <div className="px-6 py-4 lg:h-52">
             <span className="tracking-widest text-sm title-font font-medium text-black">
@@ -99,7 +101,9 @@ function networks() {
 
         {/* Omniflix */}
         <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
+
           <img className="w-90 p-10" src="/omniflix.png" alt="React ts" />
+
 
           <div className="px-6 py-4 lg:h-52">
             <span className="tracking-widest text-sm title-font font-medium text-black">
