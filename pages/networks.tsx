@@ -8,7 +8,7 @@ function networks() {
       <div className="bg-slate-500 justify-center rounded-lg mt-400 py-5 grid grid-cols-1 sm:grid-col-2 lg:grid-cols-4 gap-3 md:gap-4 p-5 md:p-6">
         {/* Juno network */}
         <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
-          <img className="w-full" src="/juno-symbol.svg" alt="React ts" />
+          <img className="w-full" src="/juno.svg" alt="React ts" />
           <div className="px-6 py-4 lg:h-52">
             <span className="tracking-widest text-sm title-font font-medium text-black mb-1">
               {" "}
@@ -40,7 +40,9 @@ function networks() {
 
         {/* Evmos */}
         <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
-          <img className="w-full p-10" src="/evmos svg.svg" alt="React ts" />
+
+          <img className="w-full p-10" src="/evmos-2.svg" alt="React ts" />
+
 
           <div className="px-6 py-4 lg:h-52">
             <span className="tracking-widest text-sm title-font font-medium text-black">
@@ -99,7 +101,9 @@ function networks() {
 
         {/* Omniflix */}
         <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
-          <img className="w-90 p-10" src="/omniflix.jpeg" alt="React ts" />
+
+          <img className="w-90 p-10" src="/omniflix.png" alt="React ts" />
+
 
           <div className="px-6 py-4 lg:h-52">
             <span className="tracking-widest text-sm title-font font-medium text-black">
