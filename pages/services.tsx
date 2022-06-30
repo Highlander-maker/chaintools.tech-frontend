@@ -158,7 +158,7 @@ function services() {
           </div>
           <div className="px-6 pt-4 pb-2">
             <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
-              Coming soon...
+              Coming soon !!!
             </span>
           </div>
         </div>
