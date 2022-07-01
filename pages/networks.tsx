@@ -6,6 +6,7 @@ function networks() {
     <Layout>
       {/* main div */}
       <div className="bg-slate-500 justify-center rounded-lg mt-400 py-5 grid grid-cols-1 sm:grid-col-2 lg:grid-cols-4 gap-3 md:gap-4 p-5 md:p-6">
+
         {/* Juno network */}
         <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
           <img className="w-full" src="/juno.svg" alt="React ts" />
@@ -40,9 +41,7 @@ function networks() {
 
         {/* Evmos */}
         <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
-
           <img className="w-full p-10" src="/evmos-2.svg" alt="React ts" />
-
 
           <div className="px-6 py-4 lg:h-52">
             <span className="tracking-widest text-sm title-font font-medium text-black">
@@ -62,9 +61,11 @@ function networks() {
           </div>
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
-              Read More
-            </span>
+            <a href="https://evmos.org/">
+              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+                Read More
+              </span>
+            </a>
           </div>
         </div>
 
@@ -93,17 +94,17 @@ function networks() {
           </div>
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
-              Read More
-            </span>
+            <a href="https://kujira.app/">
+              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+                Read More
+              </span>
+            </a>
           </div>
         </div>
 
         {/* Omniflix */}
         <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
-
           <img className="w-90 p-10" src="/omniflix.png" alt="React ts" />
-
 
           <div className="px-6 py-4 lg:h-52">
             <span className="tracking-widest text-sm title-font font-medium text-black">
@@ -126,9 +127,11 @@ function networks() {
           </div>
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
-              Read More
-            </span>
+            <a href="https://www.omniflix.network/">
+              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+                Read More
+              </span>
+            </a>
           </div>
         </div>
 
@@ -158,9 +161,11 @@ function networks() {
           </div>
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
-              Read More
-            </span>
+            <a href="https://sentinel.co/">
+              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+                Read More
+              </span>
+            </a>
           </div>
         </div>
 
@@ -219,9 +224,11 @@ function networks() {
           </div>
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
+            <a href="https://sifchain.network/">
             <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
               Read More
             </span>
+            </a>
           </div>
         </div>
 
@@ -251,9 +258,11 @@ function networks() {
           </div>
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
+            <a href="https://www.kava.io/">
             <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
               Read More
             </span>
+            </a>
           </div>
         </div>
 
@@ -282,9 +291,11 @@ function networks() {
           </div>
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
+            <a href="">
             <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
               Read More
             </span>
+            </a>
           </div>
         </div>
 
@@ -313,9 +324,45 @@ function networks() {
           </div>
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
+            <a href="https://fetch.ai/">
             <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
               Read More
             </span>
+            </a>
+          </div>
+        </div>
+
+        {/* Chihuahua chain */}
+        <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
+          <img className="w-90 p-10" src="/chihuahua.jpeg" alt="React ts" />
+
+          <div className="px-6 py-4 lg:h-52">
+            <span className="tracking-widest text-sm title-font font-medium text-black">
+              {" "}
+              Chihuahua{" "}
+            </span>
+            <div className="border title-font text-lg font-medium mb-2 underline">
+              <a
+                href="https://explorer.chaintools.tech/chihuahua/staking"
+                className="text-gray-900"
+              >
+                STAKE
+              </a>
+            </div>
+
+            <p className="text-gray-700 text-sm">
+              Chihuahua is the first interoperable meme coin with a POS
+              blockchain, making it one of the most utilized chains in the
+              Cosmos ecosystem
+            </p>
+          </div>
+          {/* button style */}
+          <div className="px-6 pt-4 pb-2">
+            <a href="https://www.chihuahua.wtf/">
+              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+                Read More
+              </span>
+            </a>
           </div>
         </div>
       </div>
