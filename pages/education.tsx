@@ -13,8 +13,10 @@ function education({ posts }: Props) {
     // Posts
     <Layout>
       <div className="bg-slate-500 grid grid-cols-1 sm:grid-col-2 lg:grid-cols-3 gap-3 md:gap-4 p-5 md:p-6">
+
+        <img className="flex justify-center" src="/comingsoon.png" alt="" />
         
-          {posts.map((post) => (
+          {/* {posts.map((post) => (
             <Link key={post._id} href={`/post/${post.slug.current}`}>
               <div className="border rounded-lg group cursor-pointer overflow-hidden">
                 <img
@@ -38,7 +40,7 @@ function education({ posts }: Props) {
                 </div>
               </div>
             </Link>
-          ))}
+          ))} */}
         </div>
       
     </Layout>
