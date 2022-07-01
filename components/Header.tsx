@@ -44,9 +44,7 @@ function Header() {
       </div>
 
       <div className="flex items-center space-x-5 text-slate-700">
-        <a className="border px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200">
-          Sign In
-        </a>
+       
       </div>
     </header>
   );
