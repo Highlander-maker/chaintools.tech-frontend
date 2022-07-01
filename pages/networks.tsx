@@ -33,7 +33,7 @@ function networks() {
 
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
               Read More
             </span>
           </div>
@@ -62,7 +62,7 @@ function networks() {
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
             <a href="https://evmos.org/">
-              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
                 Read More
               </span>
             </a>
@@ -95,7 +95,7 @@ function networks() {
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
             <a href="https://kujira.app/">
-              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
                 Read More
               </span>
             </a>
@@ -128,7 +128,7 @@ function networks() {
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
             <a href="https://www.omniflix.network/">
-              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
                 Read More
               </span>
             </a>
@@ -162,7 +162,7 @@ function networks() {
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
             <a href="https://sentinel.co/">
-              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300" >
                 Read More
               </span>
             </a>
@@ -193,7 +193,7 @@ function networks() {
           </div>
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
               Read More
             </span>
           </div>
@@ -225,7 +225,7 @@ function networks() {
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
             <a href="https://sifchain.network/">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
               Read More
             </span>
             </a>
@@ -259,7 +259,7 @@ function networks() {
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
             <a href="https://www.kava.io/">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
               Read More
             </span>
             </a>
@@ -292,7 +292,7 @@ function networks() {
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
             <a href="">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
               Read More
             </span>
             </a>
@@ -325,7 +325,7 @@ function networks() {
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
             <a href="https://fetch.ai/">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
               Read More
             </span>
             </a>
@@ -359,7 +359,7 @@ function networks() {
           {/* button style */}
           <div className="px-6 pt-4 pb-2">
             <a href="https://www.chihuahua.wtf/">
-              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+              <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
                 Read More
               </span>
             </a>
