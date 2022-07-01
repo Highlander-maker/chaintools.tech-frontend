@@ -8,7 +8,7 @@ function services() {
     <Layout>
       {/* main div */}
       <div className="bg-slate-500 justify-center rounded-lg mt-400 py-5 grid grid-cols-1 sm:grid-col-1  md:grid-cols-2 lg:grid-cols-3 md:gap-5 md:p-10">
-        <p className="flex justify-center font-medium leading-loose p-5 text-lg m-10 text-gray-200">
+        <p className="flex justify-center font-medium p-5 text-lg m-10 text-gray-200 leading-snug bg-gradient-to-r from-black to-transparent decoration-slice">
           {" "}
           Chaintools are an independent and experienced operation running
           sophisticated blockchain infrastructure to make cryptoassets work. We
