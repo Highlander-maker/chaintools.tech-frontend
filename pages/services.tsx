@@ -160,42 +160,16 @@ function services() {
             </span>
 
             <p className="text-gray-700 flex text-sm font-medium leading-snug p-5">
-              A tool for querying on chain data being developed by Chaintools & Junotools
+              A tool for querying on chain data being developed by Chaintools &
+              Junotools
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
             <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
-
-              Coming soon !!!
-
+              Coming soon...
             </span>
           </div>
         </div>
-
-       {/* relayers  */}
-       <div className="bg-gray-200 max-w-sm rounded-2xl overflow-hidden shadow-lg">
-          <img className="w-full" src="/relayer.png" alt="React ts" />
-          <div className="px-6 py-4 lg:h-52">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-1">
-              {" "}
-              Relayers{" "}
-            </span>
-
-            <p className="text-gray-700 flex text-sm font-medium leading-snug p-5">
-              Relayer operators are a crucial part of the IBC infrastructure,
-              yet sometimes their presence is taken for granted. IBC provides
-              blockchains a protocol to enable reliable, secure and
-              permissionless transfer of packets of data.
-            </p>
-          </div>
-          <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
-              Take me there
-            </span>
-          </div>
-        </div>
-
-
       </div>
     </Layout>
   );
