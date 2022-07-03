@@ -6,14 +6,16 @@ import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div className="max-w-full mx-auto">
+    <div className="">
       <Head>
         <title>Chaintools.tech</title>
         <link rel="icon" href="chaintools-logo-clear.svg" />
       </Head>
 
       <Header />
-      <div className="flex justify-between items-center bg-cyan-500  border-black py-10 lg:py-0">
+
+
+      <div className="flex justify-between items-center border-black py-10 lg:py-0">
         <div className="px-10 space-y-20">
           <h1 className="text-6xl max-w-xl font-semibold">
           <p className="text-gray-800 font-bold text-6xl pb-6">
@@ -30,7 +32,7 @@ export default function Home() {
         
 
         <img
-          className="md:inline-flex h-45 lg:-full max-w-2xl"
+          className="hidden md:inline-flex h-32 lg:h-full"
           src="chaintools-logo-black.svg"
           alt=""
         />
