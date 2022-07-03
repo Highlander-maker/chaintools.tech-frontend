@@ -2,11 +2,11 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="flex h-20 justify-between bg-gray-100 p-5 mx-auto">
+    <header className="flex justify-between bg-gray-100 p-5">
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
-            className="w-40 h-16 object-contain cursor-pointer"
+            className="w-44 object-contain cursor-pointer"
             src="/chaintool--header-logo.svg"
             alt=""
           />
