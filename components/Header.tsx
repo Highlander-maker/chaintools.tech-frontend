@@ -36,6 +36,13 @@ function Header() {
         </a>
 
         <a
+          href="tools"
+          className="border px-4 py-1 rounded-full  hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200"
+        >
+          Tools
+        </a>
+
+        <a
           href="contact"
           className="border px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200"
         >
