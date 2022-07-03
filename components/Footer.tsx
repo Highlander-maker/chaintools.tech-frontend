@@ -8,7 +8,7 @@ import { BsGithub } from "react-icons/bs";
 function Footer() {
   return (
 
-    <div className="bg-gray-100 h-40 w-full md:flex-col justify-start p-20 ">
+    <div className=" h-10 w-full md:flex-col justify-start px-6 pt-10 pb-6 p-10 ">
         <ul>
           <p className="text-gray-800 font-bold text-4xl p-6">
             Chain<span className="text-slate-500">tools</span>
