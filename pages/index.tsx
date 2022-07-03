@@ -23,7 +23,7 @@ export default function Home() {
           </p>
             Learn, stake, support the world of decentralised blockchains
           </h1>
-          <h2 className="font-serif">
+          <h2 className="font-serif text-2xl">
             Production grade validators securing multiple chains accros the
             cosmos eco-system. We validate, teach, offer services. Support us
             with your stake and earn high APY rewards paid out daily
@@ -32,7 +32,7 @@ export default function Home() {
         
 
         <img
-          className="hidden md:inline-flex h-32 lg:h-full"
+          className="hidden md:inline-flex object-none: h-68 w-96"
           src="chaintools-logo-black.svg"
           alt=""
         />

@@ -50,9 +50,7 @@ function Header() {
         </a>
       </div>
 
-      <div className="flex items-center space-x-5 text-slate-700">
-       
-      </div>
+      <div className="flex items-center space-x-5 text-slate-700"></div>
     </header>
   );
 }
