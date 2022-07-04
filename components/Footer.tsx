@@ -15,10 +15,10 @@ function Footer() {
           </p>
 
           <div className=" flex p-6 gap-16 justify-start">
-            <BsTwitter onClick={() => window.location.href = 'https://twitter.com/ChaintoolsT'} className="text-2xl cursor-pointer hover:text-black" />
-            <BsDiscord onClick={() => window.location.href = 'https://discord.gg/ebd3nYeS'} className="text-2xl cursor-pointer hover:text-black" />
-            <BsTelegram onClick={() => window.location.href = 'https://t.me/chaintoolsT'} className="text-2xl cursor-pointer hover:text-black" />
-            <BsGithub onClick={() => window.location.href = 'https://github.com/Highlander-maker/chaintools.tech-frontend'} className="text-2xl cursor-pointer hover:text-black" />
+            <BsTwitter onClick={() => window.location.href = 'https://twitter.com/ChaintoolsT'} className="text-3xl cursor-pointer sm:text-1xl hover:text-black" />
+            <BsDiscord onClick={() => window.location.href = 'https://discord.gg/ebd3nYeS'} className="text-3xl cursor-pointer hover:text-black" />
+            <BsTelegram onClick={() => window.location.href = 'https://t.me/chaintoolsT'} className="text-3xl cursor-pointer hover:text-black" />
+            <BsGithub onClick={() => window.location.href = 'https://github.com/Highlander-maker/chaintools.tech-frontend'} className="text-3xl cursor-pointer hover:text-black" />
           </div>
         </ul>
 
