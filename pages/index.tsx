@@ -15,15 +15,15 @@ export default function Home() {
       <Header />
 
 
-      <div className="flex justify-between items-center border-black py-10 lg:py-0">
-        <div className="px-10 space-y-20">
-          <h1 className="text-6xl max-w-xl font-semibold">
-          <p className="text-gray-800 font-bold text-6xl pb-6">
+      <div className="flex justify-between items-center border-black py-10 lg:py-20">
+        <div className="px-10 space-y-40">
+          <h1 className="text-5xl max-w-xl font-semibold">
+          <p className="text-gray-800 font-bold text-6xl">
             Chain<span className="text-slate-500 text-6xl">tools</span>
           </p>
             Learn, stake, support the world of decentralised blockchains
           </h1>
-          <h2 className="font-serif">
+          <h2 className="font-serif text-2xl">
             Production grade validators securing multiple chains accros the
             cosmos eco-system. We validate, teach, offer services. Support us
             with your stake and earn high APY rewards paid out daily
@@ -32,7 +32,7 @@ export default function Home() {
         
 
         <img
-          className="hidden md:inline-flex h-32 lg:h-full"
+          className="hidden md:inline-flex object-none: h-68 w-96"
           src="chaintools-logo-black.svg"
           alt=""
         />
