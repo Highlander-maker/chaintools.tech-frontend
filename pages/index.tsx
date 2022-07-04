@@ -24,7 +24,7 @@ export default function Home() {
             Learn, stake, support the world of decentralised blockchains
           </h1>
           <h2 className="font-serif text-2xl">
-            Production grade validators securing multiple chains accros the
+            Production grade validators securing multiple chains across the
             cosmos eco-system. We validate, teach, offer services. Support us
             with your stake and earn high APY rewards paid out daily
           </h2>
