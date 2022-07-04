@@ -15,10 +15,10 @@ export default function Home() {
       <Header />
 
 
-      <div className="flex justify-between items-center border-black py-10 lg:py-0">
-        <div className="px-10 space-y-20">
-          <h1 className="text-6xl max-w-xl font-semibold">
-          <p className="text-gray-800 font-bold text-6xl pb-6">
+      <div className="flex justify-between items-center border-black py-10 lg:py-20">
+        <div className="px-10 space-y-40">
+          <h1 className="text-5xl max-w-xl font-semibold">
+          <p className="text-gray-800 font-bold text-6xl">
             Chain<span className="text-slate-500 text-6xl">tools</span>
           </p>
             Learn, stake, support the world of decentralised blockchains
