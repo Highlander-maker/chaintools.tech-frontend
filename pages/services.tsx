@@ -76,7 +76,7 @@ function services() {
           <div className="px-6 pt-4 pb-2">
           
             <a href="relayerPage">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
               Read more...
             </span>
             </a>
@@ -99,7 +99,7 @@ function services() {
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
               Grab a snapshot...
             </span>
           </div>
@@ -121,7 +121,7 @@ function services() {
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
               Statesync...
             </span>
           </div>
@@ -136,7 +136,7 @@ function services() {
               Network Seeds & Peers{" "}
             </span>
 
-            <p className="text-gray-700 flex text-sm font-medium leading-snug p-5">
+            <p className="text-gray-700 flex text-sm font-sm leading-snug p-5">
               All p2p connections use TCP. Upon establishing a successful TCP
               connection with a peer, two handshakes are performed. We provide
               an up to date peer list for all the networks we validate so you
@@ -144,9 +144,11 @@ function services() {
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-cyan-400">
+            <a href="/peers">
+            <span className="inline-block bg-gray-400 text-black px-4 py-2 text-sm font-semibold mr-2 mb-3 cursor-pointer tracking-widest rounded-full hover:bg-gray-300">
               Grab some peers !!!...
             </span>
+            </a>
           </div>
         </div>
 
