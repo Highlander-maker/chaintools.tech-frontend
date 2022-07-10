@@ -8,7 +8,7 @@ interface Props {
   posts: [Post];
 }
 
-function education({ posts }: Props) {
+function blog({ posts }: Props) {
   return (
     // Posts
     <Layout>
@@ -68,4 +68,4 @@ export const getServerSideProps = async () => {
   };
 };
 
-export default education;
+export default blog;

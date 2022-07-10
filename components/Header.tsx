@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 function NavLink({ to, children }: any) {
   return (
     <a href={to} className={`mx-4`}>
@@ -47,15 +48,27 @@ function MobileNav({ open, setOpen }: any) {
         </a>
         <a
           className="text-xl font-normal my-4"
-          href="/education"
+          href="/blog"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
             }, 100)
           }
         >
-          Education
+          Blog
         </a>
+        <a
+          className="text-xl font-normal my-4"
+          href="/pages/academy.tsx"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Academy
+        </a>
+       
         <a
           className="text-xl font-normal my-4"
           href="/tools"
@@ -128,7 +141,11 @@ export default function Navbar() {
           </button>
 
           <button className="border  px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200">
-            <NavLink to="/education">Education</NavLink>
+            <NavLink to="/blog">Blog</NavLink>
+          </button>
+
+          <button className="border  px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200">
+            <NavLink to="/academy">Academy</NavLink>
           </button>
 
           <button className="border  px-4 py-1 rounded-full hover:bg-gray-300 object-contain cursor-pointer transition-all duration-200">
