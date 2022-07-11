@@ -4,115 +4,44 @@ import Layout from "../components/Layout";
 function relayersPage() {
   return (
     <Layout>
+      <div className="w-full min-h-screen bg-slate-400 p-6">
+        <h1 className="font-bold text-xl text-center ">
+          Checkout the networks we are running{" "}
+          <span className="text-red-700"> Relayers </span> on
+        </h1>
+        {/* Card container start  */}
 
-      {/* relayer operations  */}
-      <div >
-
-        <img src="/comingsoon.png" alt="" />
-      {/* <div className="justify-center rounded-lg p-3 grid grid-cols-1 sm:grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-1">
-              {" "}
-            </span>
+        <div className="flex flex-wrap justify-center">
+          <div className="flex flex-col bg-white rounded -lg  shadow-md w-full m-6 overflow-hidden sm:w-64">
+            <img className="h-20 m-6 " src="/juno.svg" alt="" />
+            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 ">
+              Juno - Kujira
+            </h2>
           </div>
+
+          <div className="flex flex-col bg-white rounded -lg  shadow-md w-full m-6 overflow-hidden sm:w-64">
+            <img className="h-20 m-6 " src="/juno.svg" alt="" />
+            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 ">
+              Juno - Kujira
+            </h2>
+          </div>
+
+          <div className="flex flex-col bg-white rounded -lg  shadow-md w-full m-6 overflow-hidden sm:w-64">
+            <img className="h-20 m-6 " src="/juno.svg" alt="" />
+            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 ">
+              Juno - Kujira
+            </h2>
+          </div>
+
+          <div className="flex flex-col bg-white rounded -lg  shadow-md w-full m-6 overflow-hidden sm:w-64">
+            <img className="h-20 m-6 " src="/juno.svg" alt="" />
+            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 ">
+              Juno - Kujira
+            </h2>
+          </div>
+
+
         </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-1">
-              {" "}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-5">
-              {" "}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-1">
-              {" "}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-1">
-              {" "}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-5">
-              {" "}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-1">
-              {" "}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-1">
-              {" "}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-5">
-              {" "}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-1">
-              {" "}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-1">
-              {" "}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-gray-200 max-w-sm rounded-2xl mx-5 overflow-hidden shadow-lg">
-          <div className=" py-4 sm:h-40 md:h-40 lg:h-40">
-            <span className="tracking-widest text-lg title-font font-medium text-black mb-5">
-              {" "}
-            </span>
-          </div>
-        </div> */}
-
-        
-        
-
-
-
-
-
       </div>
     </Layout>
   );
