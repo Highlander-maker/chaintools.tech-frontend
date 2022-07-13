@@ -14,28 +14,28 @@ function relayersPage() {
         <div className="flex flex-wrap justify-center">
           <div className="flex flex-col bg-white rounded -lg  shadow-md w-full m-6 overflow-hidden sm:w-64">
             <img className="h-20 m-6 " src="/juno.svg" alt="" />
-            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 ">
+            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 p-5 ">
               Juno - Kujira
             </h2>
           </div>
 
           <div className="flex flex-col bg-white rounded -lg  shadow-md w-full m-6 overflow-hidden sm:w-64">
             <img className="h-20 m-6 " src="/juno.svg" alt="" />
-            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 ">
+            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 p-5">
             Omniflix - Kichain
             </h2>
           </div>
 
           <div className="flex flex-col bg-white rounded -lg  shadow-md w-full m-6 overflow-hidden sm:w-64">
             <img className="h-20 m-6 " src="/juno.svg" alt="" />
-            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 ">
+            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 p-5 ">
               Juno - Bitsong
             </h2>
           </div>
 
           <div className="flex flex-col bg-white rounded -lg  shadow-md w-full m-6 overflow-hidden sm:w-64">
             <img className="h-20 m-6 " src="/juno.svg" alt="" />
-            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 ">
+            <h2 className="text-center bg-gray-300 hover:bg-red-300 transition-all duration-500 px-2 font-extrabold pb-5 p-5 ">
               Sentinel - Decentr
             </h2>
           </div>
