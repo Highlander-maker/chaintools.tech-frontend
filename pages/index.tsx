@@ -6,18 +6,18 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Chaintools.tech</title>
+        <title>ChainTools.tech</title>
         <link rel="icon" href="chaintools-logo-clear.svg" />
       </Head>
 
       <Header />
 
       <div className="flex-auto justify-between items-center border-black py-10 lg:py-20">
-        <img className="object-cover absolute mix-blend-saturation" src="/background.svg" alt="" />
+        <img className="object-cover fixed  mix-blend-overlay" src="/background.svg" alt="" />
         <div className="px-10 space-y-40">
           <h1 className="text-slate-300 text-5xl max-w-xl font-semibold">
-            <p className="text-slate-500 font-bold text-6xl">
-              Chain<span className="text-white text-6xl">tools</span>
+            <p className="text-black font-bold text-6xl">
+              Chain<span className="text-slate-300 text-6xl">Tools</span>
             </p>
             Learn, stake, support the world of decentralised blockchains
           </h1>
