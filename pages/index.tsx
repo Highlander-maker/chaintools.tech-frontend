@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
 
       <div className="flex-auto justify-between items-center border-black py-10 lg:py-20">
-        <img className="object-cover fixed bottom-10 mb-5 mix-blend-overlay" src="/background.svg" alt="" />
+        <img className="object-fill fixed mix-blend-overlay md:object-fill" src="/background.svg" alt="" />
         <div className="px-10 space-y-40">
           <h1 className="text-slate-300 text-5xl max-w-xl font-semibold">
             <p className="text-black font-bold text-6xl">
